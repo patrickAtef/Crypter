@@ -26,6 +26,7 @@ def Encrypt(path, key):
         if i > 3 :
             break
         i = i + 1
+        print(i)
 
 def Decrypt(path):
     with open("thekey.key", "rb") as thekey:
